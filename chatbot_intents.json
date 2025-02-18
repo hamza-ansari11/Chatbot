@@ -1,0 +1,61 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["hello", "hi", "how are you","hey", "good morning", "good evening"],
+            "responses": ["Hello!", "Hi there!", "Hey! How can I assist you today?"]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["bye", "goodbye", "see you later", "farewell"],
+            "responses": ["Goodbye!", "See you later!", "Have a great day!"]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["thanks", "thank you", "appreciate it"],
+            "responses": ["You're welcome!", "No problem!", "Glad to help!"]
+        },
+        {
+            "tag": "weather",
+            "patterns": ["what's the weather like", "weather forecast", "is it raining"],
+            "responses": ["Let me check the weather for you.", "Looking up the weather..."]
+        },
+        {
+            "tag": "password_reset",
+            "patterns": ["how do I reset my password", "forgot my password", "change password"],
+            "responses": ["You can reset your password by going to the settings and selecting 'Reset Password'."]
+        },
+        {
+            "tag": "fun_fact",
+            "patterns": ["tell me a fun fact", "interesting fact", "random fact"],
+            "responses": ["Did you know that octopuses have three hearts?", "Bananas are berries, but strawberries aren’t!"]
+        },
+        {
+            "tag": "math",
+            "patterns": ["what is 5+3", "5+3" ,"calculate 9 times 2", "solve 16 divided by 4"],
+            "responses": ["5+3 is 8.", "8","9 times 2 is 18.", "16 divided by 4 is 4."]
+        },
+        {
+            "tag": "translation",
+            "patterns": ["translate 'hello' to spanish", "how do you say 'goodbye' in French", "what is 'thank you' in German"],
+            "responses": ["'Hello' in Spanish is 'Hola'.", "'Goodbye' in French is 'Au revoir'.", "'Thank you' in German is 'Danke'."]
+        },
+        {
+            "tag": "joke",
+            "patterns": ["tell me a joke", "make me laugh", "funny joke"],
+            "responses": ["Why don’t skeletons fight each other? Because they don’t have the guts!", "Why did the scarecrow win an award? Because he was outstanding in his field!"]
+        },
+        {
+            "tag": "time",
+            "patterns": ["what time is it", "current time", "tell me the time"],
+            "responses": ["I'm not a clock, but you can check the time on your device!", "Let me check... Oh wait, I don’t wear a watch!"]
+        },
+        {
+            "tag": "news",
+            "patterns": ["latest news", "what's happening today", "current events"],
+            "responses": ["Let me fetch the latest news for you!", "Checking the news..."]
+        }
+    ]
+}
+
+
